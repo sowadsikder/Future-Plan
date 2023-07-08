@@ -75,7 +75,7 @@ button#btn-primary {
   color: #151414;
   font-size: 35px;
   font-weight: 700;
-  text-shadow: -3px 3px 3px;
+  text-shadow: -2px 2px 2px;
   margin-bottom: 35px;
   margin-right: 70px;
 }
@@ -102,4 +102,34 @@ img.person-Img {
   color: green;
   font-size: 24px;
   text-shadow: 0px 0px 10px;
+}
+
+.plans-title{
+  color: #151414;
+  font-size: 45px;
+  font-weight: 700;
+  text-shadow: -2px 2px 2px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.icons-list{
+  display: flex;
+  justify-content: center;
+}
+.list-items {
+  margin: 0 120px;
+  text-align: center;
+}
+.plan-title{
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.plan-description{
+  color: #444343;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
