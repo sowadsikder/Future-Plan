@@ -1,0 +1,58 @@
+/* Universel Css Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* all style sherad */
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* header style start */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  background: url("../images/banner/banner1.png");
+  background-color: lightgrey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.banner-container {
+  width: 40%;
+  align-items: right;
+  padding-right: 100px;
+}
+.section-title {
+  color: #151414;
+  text-align: right;
+  font-size: 65px;
+  font-weight: 700;
+  text-shadow: -3px 3px 3px;
+  margin-bottom: 35px;
+}
+.section-description {
+  color: #444343;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #F15B22;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 25px 35px;
+  border: 0;
+  border-radius: 10px;
+}
+button#btn-primary {
+    float: right;
+}
