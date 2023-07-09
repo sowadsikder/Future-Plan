@@ -165,3 +165,246 @@ h3.min-title {
 section.mindest {
   margin: 100px 230px;
 }
+
+footer.footer-main {
+  background: #151414;
+}
+section.footer-container {
+  padding: 130px 230px;
+  display: flex;
+}
+h3.footer-title {
+  color: #F8F8F8;
+  font-size: 45px;
+  font-weight: 700;
+}
+p.footer-description {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}/* Universel Css Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* all style sherad */
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+/* header style start */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  background: url("../images/banner/banner1.png");
+  background-color: lightgrey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.banner-container {
+  width: 40%;
+  align-items: right;
+  padding-right: 100px;
+}
+.section-title {
+  color: #151414;
+  text-align: right;
+  font-size: 65px;
+  font-weight: 700;
+  text-shadow: -3px 3px 3px;
+  margin-bottom: 35px;
+}
+.section-description {
+  color: #444343;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 25px 35px;
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
+button#btn-primary {
+  float: right;
+}
+
+/* banner-2 style start */
+.banner-2-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 150px;
+  
+  margin-top: 150px;
+}
+.person-title {
+  width: 27%;
+  margin-right: 80px;
+}
+.section-title-2 {
+  color: #151414;
+  font-size: 35px;
+  font-weight: 700;
+  text-shadow: -2px 2px 2px;
+  margin-bottom: 35px;
+  margin-right: 70px;
+}
+.section-description-2 {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.circle {
+  width: 527.929px;
+  height: 527.929px;
+  border-radius: 527.929px;
+  background: rgba(241, 91, 34, 0.2);
+  position: relative;
+}
+img.person-Img {
+  position: absolute;
+  margin-top: -195px;
+  left: -22px;
+}
+.Contrary > p > i {
+  color: green;
+  font-size: 24px;
+  text-shadow: 0px 0px 10px;
+}
+
+.plans-title{
+  color: #151414;
+  font-size: 45px;
+  font-weight: 700;
+  text-shadow: -2px 2px 2px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.icons-list{
+  display: flex;
+  justify-content: center;
+}
+.list-items {
+  margin: 0 120px;
+  text-align: center;
+}
+.plan-title{
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.plan-description{
+  color: #444343;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.mindest-container {
+  background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('../images/watch.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  background-position: center;
+  height: 300px;
+}
+
+.min-info {
+  width: 50%;
+  padding-left: 120px;
+}
+h3.min-title {
+  font-size: 45px;
+  color: white;
+  padding-top: 70px;
+  margin-bottom: 20px;
+}
+.btn-primary-light{
+  color:  #f15b22;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 25px 35px;
+  border: 0;
+  border-radius: 10px;
+}
+section.mindest {
+  margin: 100px 230px;
+}
+
+footer.footer-main {
+  background: #151414;
+}
+section.footer-container {
+  padding: 130px 230px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-textarea {
+  width: 50%;
+}
+h3.footer-title {
+  color: #F8F8F8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+p.footer-description {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.social-media img {
+  margin-right: 20px;
+}
+h3.subscribe-title{
+  color: #F8F8F8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.footer-textarea {
+  width: 50%;
+}
+
+input[type="email"] {
+  font-size: 25px;
+  width: 100%;
+  display: block;
+  padding: 15px 35px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  height: 90px;
+}
+input.subscribe {
+  color: #F15B22;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 25px 35px;
+  border-radius: 10px;
+}
